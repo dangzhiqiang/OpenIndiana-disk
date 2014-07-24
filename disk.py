@@ -123,7 +123,7 @@ def disk_list():
 		print("[ERROR] - List disk info error")
 		return 1
 
-	print("{0:23} {1:7} {2:10} {3:14} {4:16} {5:12} {6:6}".format(\
+	print("{0:23} {1:7} {2:10} {3:17} {4:16} {5:12} {6:6}".format(\
 	    "DEVICE", "ALISA", "VENDOR", "PRODUCT", "SERIALNO", "SIZE", "FREE"))
 
 	for disk in disks:
@@ -136,7 +136,7 @@ def disk_list():
 		if len(diskinfo) == 0:
 			continue
 
-		print("{0:23} {1:7} {2:10} {3:14} {4:16} {5:12} {6:6}".format(\
+		print("{0:23} {1:7} {2:10} {3:17} {4:16} {5:12} {6:6}".format(\
 		    disk,
 		    diskinfo.get("Alias", "unknow"),
 		    diskinfo.get("Vendor", "unknow"), 
