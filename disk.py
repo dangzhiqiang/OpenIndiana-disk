@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Filename: disk.py
-# Author: Dang Zhiqiang<c_dddd@163.com>
+# Author: Dang Zhiqiang<dzq008@163.com>
 
 import re
 import getopt
